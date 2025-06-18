@@ -1,0 +1,40 @@
+[global]
+developmentMode = false
+showWarningOnDirectExecution = false
+
+[server]
+port = 8501
+enableCORS = true
+enableXsrfProtection = true
+maxUploadSize = 200
+maxMessageSize = 200
+
+[browser]
+gatherUsageStats = false
+serverAddress = "localhost"
+serverPort = 8501
+
+[theme]
+primaryColor = "#667eea"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
+font = "sans serif"
+
+[runner]
+magicEnabled = true
+installTracer = false
+fixMatplotlib = true
+
+[logger]
+level = "info"
+enableLogging = true
+
+[client]
+caching = true
+displayEnabled = true
+showErrorDetails = true
+
+[ui]
+hideTopBar = false
+hideSidebarNav = false
